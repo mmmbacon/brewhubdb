@@ -19,6 +19,16 @@ module.exports = {
         ],
         display: 'swap',
       },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Brewhub API',
+        short_name: 'Brewhub API',
+        start_url: '/',
+        display: 'standalone',
+        icon: 'src/images/favicon.ico',
+      },
     }],
 
 };

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
@@ -55,6 +56,9 @@ const DocumentationPage = () => (
             <section>
               <StyledHeading>Documentation</StyledHeading>
             </section>
+            <p>
+              Warning: This dataset is still being developed! There are hundreds of breweries in Canada and It will take some time to get the database populated. Your patience is appreciated.
+            </p>
           </Col>
         </Row>
 

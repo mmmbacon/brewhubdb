@@ -17,11 +17,17 @@ const StyledList = styled.ul`
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: white;
+  &:hover {
+    color: #782c28;
+  }
 `;
 
 const StyledAnchor = styled.a`
   text-decoration: none;
   color: white;
+  &:hover {
+    color: #782c28;
+  }
 `;
 
 const StyledLi = styled.li`
@@ -36,6 +42,7 @@ const SocialButton = styled(Button)`
 const SocialText = styled.div`
   display: inline;
   padding-left: 6px;
+  line-height: 1em;
   color: white;
 `;
 
@@ -62,7 +69,7 @@ const SideBar = () => {
               alignItems: 'center',
             }}
           >
-            Documentation
+            API Documentation
             { linkOpen ? (
               <IoMdArrowDropdown style={{ fontSize: '1.5em' }} />
             ) : (
@@ -82,9 +89,9 @@ const SideBar = () => {
             </StyledList>
           </Collapse>
         </StyledLi>
-        <StyledLi>
+        {/* <StyledLi>
           <StyledLink to="/openbrewerydb">Friends</StyledLink>
-        </StyledLi>
+        </StyledLi> */}
       </StyledList>
       <Link to="https://github.com/mmmbacon" target="empty">
         <SocialButton variant="primary">
