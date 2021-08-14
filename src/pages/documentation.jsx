@@ -60,7 +60,7 @@ const DocumentationPage = () => (
 
         <Row style={{ marginTop: 50, marginBottom: 50 }}>
           <Col>
-            <section>
+            <section id="breweries">
               <div style={{ borderBottom: '2px solid #fe5f55', marginBottom: 20 }}>
                 <StyledH2>Breweries</StyledH2>
               </div>
@@ -243,7 +243,7 @@ const DocumentationPage = () => (
 
         <Row style={{ marginTop: 50, marginBottom: 50 }}>
           <Col>
-            <section>
+            <section id="options">
               <div style={{ borderBottom: '2px solid #fe5f55', marginBottom: 20 }}>
                 <StyledH2>Options</StyledH2>
               </div>
