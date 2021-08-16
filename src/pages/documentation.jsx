@@ -18,12 +18,13 @@ const StyledHeading = styled.h1`
 const StyledCode = styled.code`
   background: #fe5f55;
   color: white;
-  padding: 10px 30px;
+  padding: 6px 10px;
   padding-top: 12px;
   border-radius: 6px;
   font-weight: 500;
   font-size: 0.9em;
   display: flex;
+  white-space: pre-wrap;
 `;
 
 const StyledDescription = styled.p`

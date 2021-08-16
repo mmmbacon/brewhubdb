@@ -89,9 +89,6 @@ const SideBar = () => {
             </StyledList>
           </Collapse>
         </StyledLi>
-        {/* <StyledLi>
-          <StyledLink to="/openbrewerydb">Friends</StyledLink>
-        </StyledLi> */}
       </StyledList>
       <Link to="https://github.com/mmmbacon" target="empty">
         <SocialButton variant="primary">
@@ -104,7 +101,9 @@ const SideBar = () => {
         </SocialButton>
       </Link>
       <div style={{ marginTop: 10, marginBottom: 10 }}>
-        <a href="https://www.buymeacoffee.com/mmmbacon"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Beer&emoji=🍺&slug=mmmbacon&button_colour=a49a7a&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" alt="beer" /></a>
+        <a href="https://www.buymeacoffee.com/mmmbacon">
+          <img width="200px" src="https://img.buymeacoffee.com/button-api/?text=Buy me a Beer&emoji=🍺&slug=mmmbacon&button_colour=a49a7a&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" alt="beer" />
+        </a>
       </div>
     </StyledDiv>
   );
