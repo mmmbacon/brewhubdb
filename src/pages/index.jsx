@@ -20,7 +20,7 @@ const StyledHeading = styled.h1`
 const IndexPage = () => (
   <div style={{ height: '100%' }}>
     <MainLayout>
-      <Container style={{ marginTop: '10px' }}>
+      <Container style={{ margin: 10 }}>
         <Row style={{ marginTop: 50, marginBottom: 50 }}>
           <Col>
             <section>
@@ -48,7 +48,8 @@ const IndexPage = () => (
                 </a>
               </p>
               <p>
-                I am currently populating the dataset with breweries so please note that the data is mostly incomplete.
+                {`I am currently populating the dataset with breweries 
+                so please note that the data is mostly incomplete.`}
               </p>
             </section>
           </Col>
